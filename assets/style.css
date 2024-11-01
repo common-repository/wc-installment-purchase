@@ -1,0 +1,59 @@
+.button.wip-show {
+    background: rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.calculate-detail {
+	margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.calculate-detail p {
+	display: inline-block;
+    margin-bottom: 0;
+}
+.calculate-detail input, select {
+	height: 40px !important;
+    padding: 5px !important;
+}
+
+.calculate-btn {
+	display: inline-block;
+    position: relative;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid rgba(77,77,77,0.64);
+    background: rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    padding: 9px 15px;
+    float: right;
+}
+
+.modal-response {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.modal-content table th, .modal-content table td {
+	width: 20%;
+	vertical-align: middle;
+}
+
+.modal-content .total {
+	display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #105ea8;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 20px 5px;
+}
